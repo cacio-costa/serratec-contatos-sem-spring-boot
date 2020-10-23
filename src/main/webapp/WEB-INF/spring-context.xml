@@ -24,7 +24,7 @@
 	
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="jdbcUrl" value="jdbc:mysql://localhost/workshop"/>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost/workshop?createDatabaseIfNotExist=true"/>
 		<property name="username" value="root"/>
 		<property name="password" value=""/>
 	</bean>
