@@ -1,7 +1,15 @@
 package br.com.caelum.contatos.modelo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "contatos")
 public class Contato {
 
+	@Id @GeneratedValue
 	private Long id;
 	private String nome;
 	private String email;
