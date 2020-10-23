@@ -8,13 +8,14 @@
 <head>
 	<meta charset="ISO-8859-1">
 	<title>Caelum - Contatos</title>
+	<link rel="stylesheet" href="static/bootstrap.css">
 </head>
 <body>
 
 	<h1>Lista de contatos</h1>
 	<hr>
 	
-	<table>
+	<table class="table">
 		<thead>
 			<tr>
 				<th>ID</th>
